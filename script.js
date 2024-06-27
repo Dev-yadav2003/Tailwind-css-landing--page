@@ -1,6 +1,9 @@
 const navdialog=document.getElementById('nav-dialog');
+const content=document.getElementById('content');
+
 function handlemenu(){
     navdialog.classList.toggle('hidden');
+    content.classList.toggle('hidden');
 }
 
 

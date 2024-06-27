@@ -621,16 +621,16 @@ html,
   margin-right: auto;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
 
 .mt-12{
   margin-top: 3rem;
-}
-
-.mt-14{
-  margin-top: 3.5rem;
 }
 
 .mt-16{
@@ -651,26 +651,6 @@ html,
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-1{
-  margin-top: 0.25rem;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
-}
-
-.mb-20{
-  margin-bottom: 5rem;
 }
 
 .flex{
@@ -705,10 +685,6 @@ html,
   height: 1rem;
 }
 
-.h-\[1000px\]{
-  height: 1000px;
-}
-
 .h-full{
   height: 100%;
 }
@@ -723,10 +699,6 @@ html,
 
 .min-h-24{
   min-height: 6rem;
-}
-
-.min-h-screen{
-  min-height: 100vh;
 }
 
 .w-10{
@@ -845,6 +817,14 @@ html,
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-12{
+  gap: 3rem;
+}
+
+.gap-14{
+  gap: 3.5rem;
 }
 
 .gap-2{
@@ -1203,17 +1183,22 @@ html,
   font-weight: 500;
 }
 
-.font-semibold{
-  font-weight: 600;
-}
-
 .font-normal{
   font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .text-gray-300{
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-gray-500{
@@ -1264,16 +1249,6 @@ html,
 .text-yellow-900{
   --tw-text-opacity: 1;
   color: rgb(113 63 18 / var(--tw-text-opacity));
-}
-
-.text-gray-400{
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-.text-gray-200{
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .opacity-85{
@@ -1386,10 +1361,6 @@ html,
     margin-left: 1rem;
   }
 
-  .md\:flex{
-    display: flex;
-  }
-
   .md\:h-16{
     height: 4rem;
   }
@@ -1433,29 +1404,8 @@ html,
     display: none;
   }
 
-  .lg\:max-h-fit{
-    max-height: -moz-fit-content;
-    max-height: fit-content;
-  }
-
-  .lg\:max-h-96{
-    max-height: 24rem;
-  }
-
-  .lg\:max-h-\[4\]{
-    max-height: 4;
-  }
-
-  .lg\:max-h-\[400px\]{
-    max-height: 400px;
-  }
-
   .lg\:max-h-\[480px\]{
     max-height: 480px;
-  }
-
-  .lg\:max-h-\[460px\]{
-    max-height: 460px;
   }
 
   .lg\:w-\[50vw\]{
@@ -1482,9 +1432,8 @@ html,
     gap: 1.25rem;
   }
 
-  .lg\:px-10{
+  .lg\:pl-10{
     padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .lg\:pt-10{
@@ -1493,9 +1442,5 @@ html,
 
   .lg\:pt-8{
     padding-top: 2rem;
-  }
-
-  .lg\:pl-10{
-    padding-left: 2.5rem;
   }
 }
